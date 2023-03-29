@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Mi Dogtor</title>
+     <link rel="stylesheet" href="css/custom.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+         <img id="título" src="img/logo.png" height="500">
+    </header>
+    <section class="container">
+        <article class="post">
+            <h2>Clínica Veterinaria</h2>
+            <img src="img/pacientes.png" width="500">
+            <p>En Mi Dogtor nos une el amor por los animales y la pasión por el trabajo, por eso estamos abiertos las 24hs. durante los 365 días del año, para dar respuesta a todas las consultas y asistir todo tipo de urgencias y emergencias.</p>
+        </article>
+        <article class="post2">
+            <h2>Salas equipadas para urgencias</h2>
+            <img src="img/cirugía.jpg" width="500">
+            <p>En Mi Dogtor, actuamos con rapidez y eficiencia porque La salud de tu mascota es nuestra prioridad. Estamos disponibles las 24 hs. para cuidar a tu mascota y brindarle el apoyo ante todo tipo de urgencias y emergencias que se le presente. Para eso, contamos con profesionales capacitados y con una infraestructura adecuada para solucionar cualquier problema de salud, ya sea clínico o quirúrgico.</p>
+        </article>
+        <article class="post3">
+            <h2>Nuestro Servicio</h2>
+            <img src="img/consulta.png" width="500">
+            <p>Brindamos un servicio integral complementario, para la realización de análisis clínico, cirugías e internaciones, las 24 h. Para ello, contamos con una amplia y confortable infraestructura y equipamiento con tecnología de vanguardia, lo que nos permite hacer estudios de alta complejidad en cualquier momento. Estamos a disposición de todos los que deseen  una respuesta inmediata, segura y confiable, los 365 días del año, sin tener que movilizar a su mascota.</p>
+             <table style="width: 100%;">
+                    <tr>
+                        <td>Consulta</td>
+                        <td>Microchip</td>
+                    </tr>
+                    <tr>
+                        <td>Cirugía general</td>
+                        <td>Laparoscopia</td>
+                    </tr>
+                    <tr>
+                        <td>Urgencias 24hs</td>
+                        <td>Vacunación</td>
+                    </tr>
+                    <tr>
+                        <td>Desparasitación</td>
+                        <td>Análisis clínico</td>
+                    </tr>
+                    <tr>
+                        <td>Laboratorio</td>
+                        <td>Ecografía</td>
+                    </tr>
+                    <tr>
+                        <td>Radiografía</td>
+                        <td>Peluquería</td>
+                    </tr>
+                    <tr>
+                        <td>Cuidado Dental</td>
+                        <td>Guardería</td>
+                    </tr>
+             </table>
+        </article>
+        <br>
+        <form action="/formulario" method="POST">
+            <h2>¿Tienes dudas?</h2>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre del paciente" /><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido del tutor" /><br>
+            <label for="especie">Especie:</label>
+            <label for="perro">Perro</label>           
+            <input type="checkbox" id="perro" value="perro" />
+            <label for="gato">Gato</label>            
+            <input type="checkbox" value="gato" id="gato">
+            <label for="otro">Otro</label>
+            <input type="text" id="otro" name="otro" ><br>
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad"><br>
+            <label for="peso">Peso:</label>
+            <input type="text" id="peso" name="peso" placeholder="Peso en Kg"><br>
+            <label for="teléfono">Teléfono</label>
+            <input type="text" id="teléfono" name="teléfono" placeholder="Número de contacto"><br>
+            <label for="correo">Correo</label>
+            <input type="correo" id="correo" name="correo" placeholder="Correo Electrónico"><br>
+            <label for="archivo">Archivo:</label>
+            <input type="file" name="archivo" id="archivo"><br>
+            <label for="consulta">Consulta:</label><br>
+            <textarea name="consulta" id="consulta" placeholder="Motivo de consulta" cols="50" rows="10"></textarea><br>
+            <button type="reset">Borrar</button>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <section>
+        <a href="#título">Ir al comienzo</a>
+        <a href="mailto:mel.xiomi@gmail.com">Contactame aquí</a>
+         </section>
+        <p>By Melanie Refulio - Copyright 2023</p>
+    </footer>
+</body>
+</html>
